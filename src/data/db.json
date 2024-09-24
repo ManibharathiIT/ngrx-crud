@@ -1,0 +1,28 @@
+{
+    "associate": [
+      {
+        "id": 1,
+        "name": "Ramesh Kumar",
+        "email": "ramesh@in.com",
+        "phone": "899089898"
+      },
+      {
+        "id": 2,
+        "name": "Akbar",
+        "email": "akbar@in.com",
+        "phone": "899089898"
+      },
+      {
+        "id": 3,
+        "name": "Ramesh Kumar",
+        "email": "ramesh@inc.com",
+        "phone": "899089898"
+      },
+      {
+        "id": 4,
+        "name": "Natrajan",
+        "email": "nat@in.com",
+        "phone": "55566"
+      }
+    ]
+}

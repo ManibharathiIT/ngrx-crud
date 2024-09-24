@@ -1,0 +1,30 @@
+<form [formGroup]="associateform" (ngSubmit)="SaveAssociate()">
+    <mat-card>
+        <mat-card-header>
+            <h1>{{title}}</h1>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-form-field>
+                <mat-label>Id</mat-label>
+                <input formControlName="id" matInput>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Name</mat-label>
+                <input formControlName="name" matInput>
+            </mat-form-field>
+            <mat-form-field class="mat-50">
+                <mat-label>Email</mat-label>
+                <input formControlName="email" matInput>
+            </mat-form-field>
+            <mat-form-field class="mat-50">
+                <mat-label>Phone</mat-label>
+                <input formControlName="phone" matInput>
+            </mat-form-field>
+                
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button color="primary" type="submit">Save</button>
+            <a mat-raised-button color="accent" (click)="ClosePopup()">Close</a>
+        </mat-card-actions>
+    </mat-card>
+</form>
